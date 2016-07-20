@@ -51,3 +51,6 @@ output "public_ip" {
 output "public_dns" {
   value = "${join(", ", aws_instance.web.*.public_dns)}"
 }
+
+
+klfdjaghdfjhkladfghjlkadfghljkgahljkafghjlkgfadhjklfgadjhafdj;dfgsjklfdajklfjkldfgkl;
