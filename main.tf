@@ -35,7 +35,7 @@ resource "aws_instance" "web" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-5a424367"
   vpc_security_group_ids = ["sg-ca91a0b1"]
-  count                  = "2"
+  count                  = "1"
 
   tags {
     Identity   = "manheim-8f14e45fceea167a5a36dedd4bea2543"
